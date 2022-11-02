@@ -61,7 +61,7 @@ sudo passwd -S $user | grep NP
 ```
 If the user has a password set, it will output nothing, but if it doesn't have a password set, it will output something like this:
 ```
-$user NP 0000-00-00 0 00 00 0
+$user NP XXXX-XX-XX X XX XX X
 ````
 and NP will be highlighted.
 ### Password Policies
