@@ -98,3 +98,6 @@ Some packages can also be malicious or untrustworthy. To see a list of all insta
 sudo apt list --installed
 ```
 This is not recommended because, just in the ubuntu image I was testing these commands on, there were 1,701 packages installed. That is a lot to go through.
+
+
+For more items, look at swcta_checklist.md and https://github.com/Forty-Bot/linux-checklist
