@@ -50,3 +50,11 @@ PASS_WARN_AGE 14
 ```sudo passwd -S $user | grep NP```
 ## List non-system users:
 ```awk -F: '($3>=1000)&&($3<60000)&&($1!="nobody"){print $1}' /etc/passwd```
+## Check Ports:
+```sudo ss -ln```
+## Close a Port:
+```sudo lsof -i :$port```
+## Find Where a Program is Located:
+```whereis $program```
+## Enable Cookie Protection:
+```sudo sysctl -n net.ipv4.tcp_syncookies```
