@@ -48,5 +48,5 @@ PASS_WARN_AGE 14
 ```sudo ls -Ra *```
 ## Check for blank passwords:
 ```sudo passwd -S $user | grep NP```
-List non-system users:
+## List non-system users:
 ```awk -F: '($3>=1000)&&($3<60000)&&($1!="nobody"){print $1}' /etc/passwd```
