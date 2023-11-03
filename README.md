@@ -4,7 +4,7 @@ For more items, look at https://github.com/Forty-Bot/linux-checklist
 # Remove Unauthorized Users
 ```sudo userdel $user```
 # Remove Users from Sudo Group
-```sudo usermod -G $group $user```
+```sudo deluser $user $group```
 # Add Users to Groups According to README
 ```sudo usermod -a -G $group $user```
 # Create New Users According to README
