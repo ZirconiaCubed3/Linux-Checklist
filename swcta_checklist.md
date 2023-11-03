@@ -51,7 +51,6 @@ PASS_MAX_DAYS 90
 PASS_MIN_DAYS 7
 PASS_WARN_AGE 14
 ```
-```sudo nano /etc/pam.d/common-auth``` Add ```auth required pam_tally2.so deny=5 onerr=fail unlock_time=1800``` (all on one line) to the end of the file. This denies password attempts and adds a lockout period. 
 ```sudo nano /etc/pam.d/common-auth``` Use ^W to find ```pam_tally2.so``` add ```deny=5 unlock_time=1800``` to the end of the line. This denies password attempts and adds a lockout period. 
 
 ```sudo visudo``` Make sure only the default account can sudo.
