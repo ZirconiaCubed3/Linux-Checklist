@@ -1,6 +1,6 @@
 For more items, look at https://github.com/Forty-Bot/linux-checklist
 
-# Do Forensics Questions
+<h3 style="color: red">Do Forensics Questions</h3>
 # Remove Unauthorized Users
 ```sudo userdel $user```
 # Remove Users from Sudo Group
